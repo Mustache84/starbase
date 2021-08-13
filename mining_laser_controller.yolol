@@ -1,0 +1,13 @@
+//Laser Automation
+if :Mine==1 then goto 3 end else goto 5 end
+if :MIne==1 then :MLT=1 :Collectors=1 end else goto 5 end
+if :MLT==0 then :MLT=1 else :MLT=0 goto 3 end
+:MLT=0 :Collectors=0
+:RTY=-5.2 :LTY=5.2 goto 2
+// Set mining button top name to `Mine`
+// Set collectors name to `Collectors`
+// Set RIGHT TurretRotation to -5.2 and field name to `RTY`
+// Set LEFT TurretRotation to 5.2 and field name to to `LTY`
+// Note that these are the top key:value pair
+// Install a second chip right below this chip in your rack
+// Add the code from Laser Automation to that 2nd chip
