@@ -1,10 +1,16 @@
+This YOLOL is for automating a back/forth sweeping motion on the Buffalo's two preinstalled lasers with a few tweaks  
+and timings, plus pulsing of the ore collectors and lasers for power saving. 
+
+I recommend aiming dead center of the asteroid and with Turtle mode enabled, just roll your ship while you mine. It should shread the entire roid up to your basic t5/t6. 
+
 *Naming*
 Set your mining button top name to `Mine`
 Set your Ore Collectors names to `CL`
 
 *Naming plus turrent base config*
-Set RIGHT TurretRotation to -10 and field name to `RTY`
-Set LEFT TurretRotation to 0 and field name to to `LTY`
+Set RIGHT TurretRotation field name to `RTY`
+Set LEFT TurretRotation field name to to `LTY`
+**If you installed a third laser on the bottom, named this one to `BTY`
 Set the pitch on your turrets to however you want them pointing
 Note that these are the top key:value pair
 
