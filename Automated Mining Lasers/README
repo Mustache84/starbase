@@ -1,1 +1,12 @@
+*Naming*
+Set your mining button top name to `Mine`
+Set your Ore Collectors names to `CL`
 
+*Naming plus turrent base config*
+Set RIGHT TurretRotation to -10 and field name to `RTY`
+Set LEFT TurretRotation to 0 and field name to to `LTY`
+Set the pitch on your turrets to however you want them pointing
+Note that these are the top key:value pair
+
+Install a second chip right below this chip in your rack
+Add the code from Laser Automation to that 2nd chip
