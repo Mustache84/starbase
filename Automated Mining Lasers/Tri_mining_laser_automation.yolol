@@ -1,0 +1,6 @@
+//Laser Automation
+if:MLT==1 thengoto5elsegoto2end
+:LTY=0 :RTY=-10 :BTY=5
+ift<10thent++ goto4end t=0
+:LTY=10 :RTY=0 :BTY=-5
+ift<10thent++ goto6end t=0 if:mlt thengoto3end goto2
